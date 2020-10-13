@@ -31,5 +31,5 @@ jobs:
     - docker build -t travis-ci-build-stages-demo .
     - docker images
     - docker tag travis-ci-build-stages-demo $DOCKER_USERNAME/cicd-laravel
-    - docker push $DOCKER_USERNAME/cicd_laravel
+    - docker push $DOCKER_USERNAME/cicd-laravel
       
